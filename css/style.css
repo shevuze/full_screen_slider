@@ -1,0 +1,123 @@
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	color: #FFF;
+	text-decoration: none;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+
+.ba-slider__slide {
+	min-height: 100vh;
+	color: #FFF;
+	background: 50%;
+	background-size: cover;
+	position: relative;
+}
+
+.ba-container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 100px 0;
+	text-align: center;
+}
+
+.slick-arrow {
+	position:absolute;
+	top: 50%;
+	z-index: 2;
+	border: none;
+	background: none;
+	font-size: 0;
+	background: no-repeat 50%;
+	height: 42px;
+	width: 23px;
+	outline: none;
+	margin: -21px 20px 0;
+}
+
+.slick-prev {
+	left: 0;
+	background-image: url(../img/arrow_left.png);
+}
+
+.slick-next {
+	right: 0;
+	background-image: url(../img/arrow_right.png);
+}
+
+.slick-dots {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+
+.slick-dots li {
+	display: inline-block;
+}
+
+.slick-dots li button {
+	display: inline-block;
+	border: none;
+	font-size: 0;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	outline: none;
+	margin: 0 5px;
+	background: #fff;
+}
+
+.slick-dots li button:hover {
+	background:  #898989;
+}
+
